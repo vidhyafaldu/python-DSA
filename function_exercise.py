@@ -1,5 +1,5 @@
 #Write a function to print "Hello, World!".
-'''
+
 def hello():
    print("hello world")
 hello()
@@ -176,7 +176,7 @@ def ele_count(num,element):
     return count
 print(ele_count(a,10))
 
-'''
+
 #Write a function to check whether a number is prime.
 
 n=int(input("enter number"))
