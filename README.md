@@ -190,7 +190,71 @@ p & q  = 2
 p | q  = 11
 p ^ q  = 9
 ```
+# NumPy Array Practice
 
+## Array Creation
+
+```python
+from numpy import *
+
+a = array([1, 2, 3], int)
+print(a)
+
+a = array([1.1, 2.2, 3.3], float)
+print(a)
+
+a = array(['a', 'b', 'c'])
+print(a)
+```
+
+## Array Functions
+
+```python
+linspace(0, 10, 5)   # Evenly spaced values
+logspace(1, 4, 5)    # Logarithmic values
+arange(1, 10, 3)     # Values with step
+zeros(5)              # Zeros
+ones(5)               # Ones
+```
+
+## Array Attributes
+
+```python
+b = array([1, 2, 3, 4, 5])
+
+b.ndim       # Dimensions
+b.shape      # Shape
+b.size       # Total elements
+b.itemsize   # Size of one element
+b.dtype      # Data type
+b.nbytes      # Total memory
+```
+
+## Dimensions
+
+```python
+# 1D
+a = array([1, 2, 3])
+
+# 2D
+b = array([[1, 2, 3], [4, 5, 6]])
+
+# 3D
+c = array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+```
+
+### Quick Notes
+
+- `array()` → Create array
+- `linspace()` → Equal spacing
+- `logspace()` → Logarithmic spacing
+- `arange()` → Range with step
+- `zeros()` → Zeros
+- `ones()` → Ones
+- `ndim` → Number of dimensions
+- `shape` → Rows and columns
+- `size` → Number of elements
+- `dtype` → Data type
 ## Purpose
 
 This project is created for learning and practicing fundamental Python programming concepts and operators.
